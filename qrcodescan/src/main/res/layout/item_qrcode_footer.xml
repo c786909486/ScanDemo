@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/photo_btn"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/photo_drawable_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/photo_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="相册"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textSize" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/flash_btn"
+            android:layout_width="45dp"
+            android:layout_height="47dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/flash_drawable_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/flash_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="开灯"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/textSize" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
